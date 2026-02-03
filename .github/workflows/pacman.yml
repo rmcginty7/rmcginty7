@@ -24,6 +24,14 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
 
 
+      - name: download streak card svg
+        run: |
+          mkdir -p dist
+          curl -L --fail --retry 5 --retry-delay 2 \
+            "https://github-readme-streak-stats.herokuapp.com/?user=${{ github.repository_owner }}&theme=dracula&hide_border=false" \
+            -o dist/streak.svg
+
+
       - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
