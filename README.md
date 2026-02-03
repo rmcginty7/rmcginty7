@@ -1,6 +1,28 @@
-<h1 align="center">Hey 👋What's Up? I'm Riley</h1>
+<h1 align="center">Hey 👋 What's Up? I'm Riley</h1>
 
 ###
+
+<p>Welcome to my page! I am software developer intern from the US. I am currently studying
+  computer science at John Carroll University. I enjoy learning about new technologies and creating impactful full stack applications.</p>
+
+<h3>&#128187; I am currently working on</h3>
+<ul>
+  <li>AI agents that analyze the stock market</li>
+  <li>A billingual learning web application</li>
+  <li>A golf swing analyzer app</li>
+</ul>
+
+###
+<h3>&#128221; I am currently learning</h3>
+<ul>
+  <li>Angular</li>
+  <li>.Net</li>
+  <li>Image Processing</li>
+</ul>
+
+###
+
+<h3>Languages and Tools:</h3>
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
